@@ -220,7 +220,7 @@ public abstract class Column<T, C> implements HasCell<T, C> {
         return this;
     }
 
-    public final Comparator<? super RowComponent<T>> sortComparator() {
+    public Comparator<? super RowComponent<T>> sortComparator() {
         if (sortComparator == null) {
             sortComparator = (o1, o2) -> {
                 return o1.compareTo(o2.getData());
@@ -262,7 +262,7 @@ public abstract class Column<T, C> implements HasCell<T, C> {
         return this;
     }
 
-    public final boolean numeric() {
+    public boolean numeric() {
         return numeric;
     }
 
@@ -276,7 +276,7 @@ public abstract class Column<T, C> implements HasCell<T, C> {
         return this;
     }
 
-    public final HideOn hideOn() {
+    public HideOn hideOn() {
         return hideOn;
     }
 
@@ -285,7 +285,7 @@ public abstract class Column<T, C> implements HasCell<T, C> {
         return this;
     }
 
-    public final TextAlign textAlign() {
+    public TextAlign textAlign() {
         return textAlign;
     }
 
