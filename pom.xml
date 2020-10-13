@@ -63,7 +63,7 @@
     <gwt-material.version>2.2</gwt-material.version>
 
     <!-- Testing -->
-    <junit.version>4.11</junit.version>
+    <junit.version>4.13.1</junit.version>
 
     <!-- Plugin Versions -->
     <maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
